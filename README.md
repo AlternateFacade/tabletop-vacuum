@@ -1,1 +1,3 @@
 # tabletop-vacuum
+
+This is code that my group created for our CICS 256 final project at UMass Amherst. While not functional in every way, the vacuuming, edge detection, and overall movement was mostly correct. After measuring the table edges, there was a spiral movement that we did not complete where it would have gone to the middle of the table and spiraled around to get any additional crumbs. A key aspect to note is that analogWrite, which we initially used for setting the speed of the motors, did not work with the Servo.h library, so we had to hardwire the robot to be at full speed. There may have been a more graceful way of approaching it that we did not consider.
